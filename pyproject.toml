@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "refloxin-agent"
+version = "0.1.0"
+description = ""
+authors = ["ASHISH YADAV <ashish.yd@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+python-dotenv = "^1.0.1"
+black = "^24.4.2"
+isort = "^5.13.2"
+langchain = "^0.2.6"
+langchain-openai = "^0.1.10"
+langgraph = "^0.1.2"
+langchain-community = "^0.2.6"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
